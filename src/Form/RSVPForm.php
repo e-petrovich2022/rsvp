@@ -25,7 +25,7 @@ class RSVPForm extends FormBase{
     $nid = $node->nid->value;
     $form['email'] = array(
       '#title' => t('Email Address'),
-      '#text' => 'textfield',
+      '#type' => 'textfield',
       '#size' => 25,
       '#description' => t("We'll send updates to the email address your provide."),
       '#required' => TRUE,
