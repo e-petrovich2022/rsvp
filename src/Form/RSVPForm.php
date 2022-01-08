@@ -38,7 +38,6 @@ class RSVPForm extends FormBase{
       '#type' => 'hidden',
       '#value' => $nid,
     );
-
     return $form;
   }
 
